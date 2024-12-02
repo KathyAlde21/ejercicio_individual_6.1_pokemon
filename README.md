@@ -1,4 +1,4 @@
-**_<h2 align="center">:vulcan_salute: Ejercicio Individual - xxx :computer:</h2>_**
+**_<h2 align="center">:vulcan_salute: Ejercicio Individual 6.1 - Pokemon parte 2 :computer:</h2>_**
 
 Proyecto realizado según los siguientes requerimientos:
 
