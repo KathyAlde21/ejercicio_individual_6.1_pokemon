@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pokemon_ultra_ball"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:weightSum="6"
+    tools:context=".MainActivity"
+    tools:ignore="DisableBaselineAlignment">
+
+    <!--    primera mitad -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <!--    segunda mitad -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <!--        pokemon-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            tools:ignore="NestedWeights">
+
+            <RadioGroup
+                android:id="@+id/pokemon_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="30sp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+
+                <RadioButton
+                    android:id="@+id/charmander_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@string/btnTintCharmander"
+                    android:text="@string/sCharmander"
+                    android:textColor="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/bulbasaur_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@string/btnTintBulbasaur"
+                    android:text="@string/sBulbasaur"
+                    android:textColor="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/squirtle_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:buttonTint="@string/btnTintSquirtle"
+                    android:text="@string/sSquirtle"
+                    android:textColor="@color/white" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <!--        boton-->
+        <Button
+            android:id="@+id/validate_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="30sp"
+            android:backgroundTint="@color/red"
+            android:text="@string/sElegir"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

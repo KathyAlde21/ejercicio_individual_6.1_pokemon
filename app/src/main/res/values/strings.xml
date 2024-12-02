@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Ejercicio Individual 6.1 Pokemon</string>
+
+    <string name="sCharmander">Charmander</string>
+    <string name="btnTintCharmander">#D50000</string>
+
+    <string name="sBulbasaur">Bulbasaur</string>
+    <string name="btnTintBulbasaur">#03C80B</string>
+
+    <string name="sSquirtle">Squirtle</string>
+    <string name="btnTintSquirtle">#0091EA</string>
+
+    <string name="sElegir">Elegir</string>
+    <string name="sPokemonSeleccionado">Pokémon Seleccionado</string>
+    <string name="sPokemon">Pokémon</string>
+    <string name="sAceptar">Aceptar</string>
+
+</resources>
